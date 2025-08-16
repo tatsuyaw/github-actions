@@ -8,3 +8,4 @@ jobs:
       - run: echo "${HASH}"
         env:
           HASH: ${{ hashFiles('.github/workflows/*.yml') }} # ハッシュ値の生成
+# trigger

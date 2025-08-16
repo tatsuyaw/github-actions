@@ -12,3 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}" # 入力パラメータ「greeting」の参照
+# trigger

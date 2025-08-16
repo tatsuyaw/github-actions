@@ -24,3 +24,4 @@ jobs:
           git config --global user.email "${EMAIL}"
           version="$(.github/scripts/bump.sh "${BUMP_LEVEL}")"
           gh release create "${version}" --title "${version}" --generate-notes
+# trigger

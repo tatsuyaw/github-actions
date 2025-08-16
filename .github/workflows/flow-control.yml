@@ -9,3 +9,4 @@ jobs:
         id: error
       - run: echo "Catch error step"
         if: ${{ failure() && steps.error.outcome == 'failure' }}
+# trigger

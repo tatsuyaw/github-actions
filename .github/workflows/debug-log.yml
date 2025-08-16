@@ -5,3 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "::debug::This is a debug log" # デバッグログ有効化時にのみ出力
+# trigger

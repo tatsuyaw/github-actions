@@ -33,3 +33,4 @@ jobs:            # Reusable Workflowsのジョブ定義
           GITHUB_TOKEN: ${{ secrets.token }}
     outputs:
       pr-comment: ${{ steps.pr-comment.outputs.body }}
+# trigger

@@ -13,3 +13,4 @@ jobs: # jobsキーへ複数のジョブを定義すれば、並列に実行さ�
     runs-on: ubuntu-latest
     steps:
       - run: sleep 10 && echo "Third job"
+# trigger

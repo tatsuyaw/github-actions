@@ -12,3 +12,4 @@ jobs:
         with:
           node-version: ${{ matrix.version }} # versionプロパティの参照
       - run: echo "${RUNNER_OS}" && node --version
+# trigger

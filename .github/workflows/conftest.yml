@@ -8,3 +8,4 @@ jobs:
       - run: | # ポリシーファイルのパスを指定し、Conftestでワークフローファイルを検証
           docker run --rm -v "$(pwd):$(pwd)" -w "$(pwd)" \
           openpolicyagent/conftest test --policy policy/ .github/workflows/
+# trigger

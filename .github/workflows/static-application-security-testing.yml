@@ -10,3 +10,4 @@ jobs:
           python-version: 3.x
       - run: pip install bandit # Banditのインストール
       - run: bandit -r .        # BanditでPythonのコードをスキャン
+# trigger

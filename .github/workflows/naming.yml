@@ -7,3 +7,4 @@ jobs:
     steps:
       - name: Amazing Script # ステップ名の指定
         run: echo "Hello"
+# trigger

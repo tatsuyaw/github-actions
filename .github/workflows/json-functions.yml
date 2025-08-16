@@ -7,3 +7,4 @@ jobs:
       - run: echo "${CONTEXT}"
         env:
           CONTEXT: ${{ toJSON(github) }} # githubコンテキストをJSON文字列でダンプ
+# trigger

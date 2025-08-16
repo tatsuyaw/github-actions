@@ -6,3 +6,4 @@ jobs:
     steps:
       - run: echo "RESULT=hello" >> "${GITHUB_ENV}" # GITHUB_ENVへ書き出し
       - run: echo "${RESULT}"                       # 通常の環境変数として参照
+# trigger

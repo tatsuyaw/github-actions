@@ -9,3 +9,4 @@ jobs:
       - env:
           RESULT: ${{ steps.source.outputs.result }}   # stepsコンテキストから参照
         run: echo "${RESULT}"
+# trigger

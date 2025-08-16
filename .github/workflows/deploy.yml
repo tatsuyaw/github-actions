@@ -28,3 +28,4 @@ jobs:
           task-definition: ${{ vars.TASK_DEFINITION_NAME }}
           container-name: ${{ vars.CONTAINER_NAME }}
           container-image: ${{ steps.build.outputs.container-image }}
+# trigger

@@ -9,3 +9,4 @@ jobs:
           image-ref: nginx:1.11.0              # スキャン対象のコンテナイメージ
           severity: CRITICAL,HIGH              # レポート対象の重大度
           exit-code: 1                         # 問題発見時の終了ステータス
+# trigger

@@ -6,3 +6,4 @@ jobs:
     steps:
       - run: echo "Hello"
         if: ${{ contains(github.run_id, '1') }} # ワークフロー実行IDで分岐
+# trigger

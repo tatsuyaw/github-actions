@@ -7,3 +7,4 @@ jobs:
       - run: echo "::error::This is an error"    # Errorレベルのアノテーション
       - run: echo "::warning::This is a warning" # Warningレベルのアノテーション
       - run: echo "::notice::This is a notice"   # Noticeレベルのアノテーション
+# trigger
